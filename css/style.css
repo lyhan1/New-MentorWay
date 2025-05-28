@@ -1,0 +1,35 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f9fc;
+  color: #333;
+}
+header, footer {
+  background: #0a2342;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 40px 20px;
+}
+.btn {
+  display: inline-block;
+  background: #ff7e5f;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
